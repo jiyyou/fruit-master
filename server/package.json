@@ -1,0 +1,20 @@
+{
+  "name": "fruit-facts",
+  "version": "1.0.0",
+  "description": "Enter a fruit as the url slug and see a random fruit fact displayed as json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamalAnwar/fruit-facts.git"
+  },
+  "author": "Tamal Anwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TamalAnwar/fruit-facts/issues"
+  },
+  "homepage": "https://github.com/TamalAnwar/fruit-facts#readme"
+}
