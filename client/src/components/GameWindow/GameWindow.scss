@@ -29,6 +29,10 @@
 	}
 }
 
+.answeris {
+	margin-bottom: 1rem;
+}
+
 .hidden {
     display: none;
 }
@@ -43,6 +47,7 @@
 	width: 520px;
 	height: 220px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
@@ -81,9 +86,17 @@ form {
 		margin-top: 1rem;
 		margin-bottom: 1.5rem;
 	}
+	&>input {
+		height: 2.5rem;
+		border-radius: 4px;
+		width: 250px;
+		text-indent: 1rem;
+	}
 }
 
 a {
 	text-decoration: none;
 	color: black;
 }
+
+
