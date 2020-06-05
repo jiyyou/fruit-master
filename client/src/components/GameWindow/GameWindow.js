@@ -154,7 +154,7 @@ class GameWindow extends React.Component {
 					<h2>WRONG!</h2>
 				</div>
 				<div className={`${this.state.sequence >= 5 ? 'done' : 'hidden'}`} >
-					<img src={this.callImage()} alt=""/>
+					<img className='game__image' src={this.callImage()} alt=""/>
 					<h2>{this.finalScore()}</h2>
 					<Link to='/'>GO BACK</Link>
 				</div>
