@@ -1,0 +1,53 @@
+.intro {
+	border-radius: 10px;
+	background-image: url('../../assets/background/fruit-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 1200px;
+	height: 800px;
+	padding: 100px 0 0 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	&__title {
+		font-size: 4rem;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	&__description {
+		font-size: 1.25rem;
+		margin-bottom: 50px;
+	}
+}
+
+.button {
+	width: 200px;
+	height: 60px;
+	border-radius: 4px;
+	background-color: rgba(0,0,0,0);
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fredericka';
+}
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+@font-face {
+	font-family: 'Fredericka';
+	src: url("../../assets/fonts/FrederickatheGreat-Regular.ttf");
+	font-weight: 300;
+}

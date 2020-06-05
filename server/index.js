@@ -1,3 +1,4 @@
+
 /**
  * Main index file
  */
@@ -5,8 +6,14 @@
 // Dependencies
 const http = require('http');
 const url = require('url');
-const PORT = process.env.PORT || 5000;
 const { fruits, fruitFacts } = require('./data');
+const express = require('express');
+const cors = require('cors');
+const app = express();
+
+app.use(cors());
+app.use(express.json());
+
 
 // Simple HTTP server
 const server = http.createServer(function(req, res) {
@@ -36,8 +43,8 @@ const server = http.createServer(function(req, res) {
 });
 
 // Run the server
-server.listen(PORT, function() {
-  console.log('We have a server running on PORT:', PORT);
+server.listen(5000, function() {
+  console.log('We have a server running on PORT:', 5000);
 });
 
 // Handlers and routes
@@ -58,6 +65,7 @@ handlers.fruit = function(slug, callback) {
     fruit: slug,
     fact: randomFact,
     tip: `Next, try /${getRandomFruit()}`
+
   });
 };
 
@@ -66,6 +74,7 @@ handlers.help = function(slug, callback) {
     info: 'Try searching fruits like /apple',
     fruits: fruits,
     tip: 'There are more than one fact per fruit'
+
   });
 };
 
