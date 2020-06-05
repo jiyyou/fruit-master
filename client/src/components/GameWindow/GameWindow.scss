@@ -1,46 +1,46 @@
 .game {
-	border-radius: 10px;
-	background-image: url('../../assets/background/fruit-background.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 1200px;
-	height: 800px;
-	padding: 40px 0 0 500px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	&__title {
-		margin-bottom: 1rem;
-		font-size: 2rem;
-	}
-	&__question {
-		margin-bottom: 0.5rem;
-	}
-	&__image {
-		width: 250px;
-		height: 250px;
-		margin-bottom: 3rem;
-		margin-top: 1rem;
-	}
+    border-radius: 10px;
+    background-image: url('../../assets/background/fruit-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    height: 800px;
+    padding: 40px 0 0 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    &__question {
+        margin-bottom: 0.5rem;
+    }
+    &__image {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 form {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	&>* {
-		font-size: 1.25rem;
-		margin-bottom: 0.5rem;
-	}
-	&>button {
-		margin-top: 1rem;
-	}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &>* {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+    &>button {
+        margin-top: 1rem;
+    }
 }
