@@ -7,3 +7,5 @@ Edited data to blank out fruit names inside of random fruit facts for quiz purpo
 Google chrome extension Moesif CORS required.
 
 Must install all required packages (npm install) for both server and client.
+
+Go through 4 rounds of random fruit facts quiz to test your knowledge!
