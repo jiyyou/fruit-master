@@ -25,6 +25,20 @@
         height: 250px;
         margin-bottom: 3rem;
         margin-top: 1rem;
+        @keyframes heartBeat {
+            from {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            to {
+                transform: scale(1.1);
+            }
+        }
+        animation-name: heartBeat;
+        animation: heartBeat 0.66s alternate;
+        animation-iteration-count: infinite;
     }
 }
 
