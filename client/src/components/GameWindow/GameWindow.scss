@@ -3,7 +3,6 @@
 	background-image: url('../../assets/background/fruit-background.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 1200px;
@@ -28,11 +27,10 @@
 		margin-bottom: 3rem;
 		margin-top: 1rem;
 	}
-
 }
 
 .hidden {
-	display: none;
+    display: none;
 }
 
 .invisible {
