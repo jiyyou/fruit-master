@@ -13,12 +13,14 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	position: relative;
 	&__title {
 		margin-bottom: 1rem;
 		font-size: 2rem;
 	}
 	&__question {
 		margin-bottom: 0.5rem;
+		height: 58px;
 	}
 	&__image {
 		width: 250px;
@@ -26,10 +28,47 @@
 		margin-bottom: 3rem;
 		margin-top: 1rem;
 	}
+
 }
 
 .hidden {
 	display: none;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+.visible {
+	position: absolute;
+	bottom: 110px;
+	width: 520px;
+	height: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.done {
+	position: absolute;
+	background-image: url('../../assets/background/fruit-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px 0 0 500px;
+	bottom: 0;
+	right: 0;
+	width: 1201px;
+	height: 801px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	&> h2 {
+		margin-bottom: 3rem;
+	}
+	&>a {
+		font-size: 2rem;
+	}
 }
 
 form {
@@ -43,4 +82,9 @@ form {
 	&>button {
 		margin-top: 1rem;
 	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }

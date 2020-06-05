@@ -11,6 +11,8 @@ function Intro() {
 			<Link to='/game'>
 				<button className='button' type='submit'>BEGIN</button>
 			</Link>
+			<p className="intro__instruction">Your trials awaits..</p>
+			<p className="intro__instruction">You shall go through 4 stages</p>
 		</section>
 	)
 }
