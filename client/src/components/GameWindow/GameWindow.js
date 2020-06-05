@@ -16,6 +16,7 @@ import pineapple from '../../assets/images/pineapple.png';
 import passion from '../../assets/images/passion.png';
 import strawberry from '../../assets/images/strawberry.png';
 import question from '../../assets/images/question.png';
+import crown from '../../assets/images/crown.png';
 
 const fruitImage = [
 	apple,
@@ -153,7 +154,7 @@ class GameWindow extends React.Component {
 					<h2>WRONG!</h2>
 				</div>
 				<div className={`${this.state.sequence >= 5 ? 'done' : 'hidden'}`} >
-					<img src={this.} alt="">
+					<img src={this.callImage()} alt=""/>
 					<h2>{this.finalScore()}</h2>
 					<Link to='/'>GO BACK</Link>
 				</div>
