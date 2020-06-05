@@ -148,10 +148,12 @@ class GameWindow extends React.Component {
 				</form>
 				<button onClick={this.callQuestion} className='button' type='submit'>NEXT QUESTION</button>
 				<div className={`${this.state.correct===true ? 'visible' : 'hidden'}`}>
-					<h2>YUM! Correct Answer!</h2>
+					<h2 className='answeris'>YUM! Correct Answer!</h2>
+					<h2>Correct Answer: {this.state.currentAnswer.toUpperCase()}</h2>
 				</div>
 				<div className={`${this.state.correct===false ? 'visible' : 'hidden'}`}>
-					<h2>WRONG!</h2>
+					<h2 className='answeris'>WRONG!</h2>
+					<h2>Correct Answer: {this.state.currentAnswer.toUpperCase()}</h2>
 				</div>
 				<div className={`${this.state.sequence >= 5 ? 'done' : 'hidden'}`} >
 					<img className='game__image' src={this.callImage()} alt=""/>
