@@ -1,4 +1,4 @@
-# 0605_pair-program_hackathon
+# Fruit Master!
 Fruit Master! Mini web app random fruit facts game
 
 Backend data forked & edited from https://github.com/TamalAnwar/fruit-facts.
